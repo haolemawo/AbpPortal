@@ -3,6 +3,8 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Prnewswire.Portal.Core;
 using Prnewswire.Portal.NHibernate;
 using Abp.Dependency;
+using Abp.Domain.Repositories;
+using Prnewswire.Portal.Core.Teacher;
 
 namespace Prnewswire.Portal.Test
 {
@@ -13,10 +15,10 @@ namespace Prnewswire.Portal.Test
         public void TestMethod1()
         {
             var b = Abp.AbpBootstrapper.Create(typeof(AbpPortalRespositoryModule));
-            b.Initialize();
+            b.Initialize();            
 
-            var respository = IocManager.Instance.Resolve<AbpPortalRespositoryModule>();
-            respository.PreInitialize();
+            var respository = IocManager.Instance.Resolve<IRepository<Teacher>>();
+            var t = respository.Get(1);            
         }
     }
 }

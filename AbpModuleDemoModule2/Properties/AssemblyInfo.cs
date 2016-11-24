@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("fluentmigratorTest")]
+[assembly: AssemblyTitle("AbpModuleDemoModule2")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("fluentmigratorTest")]
+[assembly: AssemblyProduct("AbpModuleDemoModule2")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8d34febc-01fe-41cc-b0ca-6430ed2c12e3")]
+[assembly: Guid("d09d9cdd-3c5a-4e16-b334-2831b0b0f1e4")]
 
 // Version information for an assembly consists of the following four values:
 //

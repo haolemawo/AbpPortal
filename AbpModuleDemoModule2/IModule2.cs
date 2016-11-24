@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fluentmigrator
+namespace AbpModuleDemoModule2
 {
-    class Program
+    public interface IModule2:Abp.Dependency.ITransientDependency
     {
-        static void Main(string[] args)
-        {
-        }
+        void doMethod2();
     }
 }
