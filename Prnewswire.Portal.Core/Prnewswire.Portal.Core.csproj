@@ -86,6 +86,7 @@
   <ItemGroup>
     <Compile Include="AbpPortalCoreModule.cs" />
     <Compile Include="Course\Course.cs" />
+    <Compile Include="Teacher\ITeacherRespository.cs" />
     <Compile Include="Teacher\Teacher.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
